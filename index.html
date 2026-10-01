@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>(function(){var r=document.documentElement;r.classList.remove('no-js');
 /* la firma: finché main.js non parte c'è la vaschetta vuota e l'oblò pieno; se il codice non arriva, dopo 2,5 s c'è la vaschetta piena */
 try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaManteca=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
@@ -20,15 +21,53 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aboreto&amp;family=Petit+Formal+Script&amp;family=Sintony:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=1" defer></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"IceCreamShop","name":"Gelato Fatto Con Amore","description":"Gelateria artigianale in Corso Magenta 30 a Milano: gelato prodotto ogni giorno nel laboratorio a vista, con la frutta di stagione e le creme della tradizione; torte gelato su ordinazione.","url":"https://rotenzark.github.io/gelato-fatto-con-amore-magenta/","image":"https://rotenzark.github.io/gelato-fatto-con-amore-magenta/img/og.jpg","telephone":"+39 02 8408 2297","address":{"@type":"PostalAddress","streetAddress":"Corso Magenta 30","postalCode":"20123","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.46606,"longitude":9.17744},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"12:00","closes":"22:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"2468","bestRating":"5"},"sameAs":["https://www.instagram.com/gelatofattoconamore/","https://www.facebook.com/gelatofattoconamore/"]}
+{
+  "@context": "https://schema.org",
+  "@type": "IceCreamShop",
+  "name": "Gelato Fatto Con Amore",
+  "description": "Gelateria artigianale in Corso Magenta 30 a Milano: gelato prodotto ogni giorno nel laboratorio a vista, con la frutta di stagione e le creme della tradizione; torte gelato su ordinazione.",
+  "url": "https://rotenzark.github.io/gelato-fatto-con-amore-magenta/",
+  "image": "https://rotenzark.github.io/gelato-fatto-con-amore-magenta/img/og.jpg",
+  "telephone": "+39 02 8408 2297",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Corso Magenta 30",
+    "postalCode": "20123",
+    "addressLocality": "Milano",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.46606,
+    "longitude": 9.17744
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "12:00",
+      "closes": "22:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/gelatofattoconamore/",
+    "https://www.facebook.com/gelatofattoconamore/"
+  ]
+}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -374,12 +413,12 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <h2 id="diconoT" class="capitolo__titolo" data-i18n="d.titolo">Come dice il nome</h2>
     <p class="voto voto--sezione"><b class="voto__n">4,8</b> <span class="voto__su" data-i18n="d.google">su Google, 2.468 recensioni</span></p>
     <ul class="recensioni">
-      <li class="recensione reveal"><p class="recensione__testo">«Gelato eccellente, cortesia e servizio impeccabile. Passando quotidianamente davanti al negozio vedo spesso arrivare la frutta con cui vengono fatti i gelati e devo dire che è sempre spettacolare, addirittura piu bella di quella che riesco a trovare io dal mio fruttivendolo di fiducia. Siamo clienti affezionatissimi. Raccomando anche le torte e le granite.»</p><p class="recensione__chi"><b>paola</b> <span data-i18n="d.g4a">Google, 4 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Super consigliato, ho preso i gusti crema di zenzero e cuor d’arancia (cioccolato fondente, arancia e marnier), entrambi buonissimi, si sente che gli ingredienti sono di ottima qualità. Ci sono gusti diversi dal solito, come la crema di zenzero ad esempio. Tornerò presto a provarne altri.»</p><p class="recensione__chi"><b>Nadia Tirone</b> <span data-i18n="d.g2m">Google, 2 mesi fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«È difficile trovare un posto in cui i gusti sono così vicini alla descrizione e al contempo c’è gentilezza da parte di chi ti serve. Ho assaggiato il gusto passion fruit e menta su suggerimento del personale che mi ha invitato a provarlo prima di sceglierlo e assieme al melone sono stata un’accoppiata vincente. Da provare anche crema antica!»</p><p class="recensione__chi"><b>dafne fossa</b> <span data-i18n="d.g1a">Google, un anno fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Gelateria davvero ottima! La varietà di gusti di frutta è legata alla disponibilità stagionale (come è giusto che sia), le creme invece sono di molto tipi diversi e si possono trovare anche degli abbinamenti interessanti. <span class="taglio">[…]</span> Il personale è davvero molto gentile e disponibile anche a far assaggiare i gusti in caso di dubbi. Assolutamente consigliata!»</p><p class="recensione__chi"><b>Carlo Sala</b> <span data-i18n="d.g7a">Google, 7 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Oltre a essere il miglior gelato di Milano, che frequento con affetto fin dal giorno dell’apertura, ciò che fa davvero la differenza è la gentilezza e la passione dei ragazzi, sempre accoglienti e con il sorriso. (Non posso più fare a meno del mio gusto preferito e unico a Milano: il pistacchio!!)»</p><p class="recensione__chi"><b>Daniela Calamai</b> <span data-i18n="d.g9m">Google, 9 mesi fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Il gelato è fatto veramente con Amore. Noi più volte all'anno veniamo a farci una bella camminata a Milano e d'obbligo ci fermiamo in questa gelateria per un ottimo gelato. Fantastico è il gusto pistacchio salato. Però nulla da togliere agli altri gusti sempre al Top.»</p><p class="recensione__chi"><b>Piergiorgio de priori</b> <span data-i18n="d.g1m">Google, un mese fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Gelato eccellente, cortesia e servizio impeccabile. Passando quotidianamente davanti al negozio vedo spesso arrivare la frutta con cui vengono fatti i gelati e devo dire che è sempre spettacolare, addirittura piu bella di quella che riesco a trovare io dal mio fruttivendolo di fiducia. Siamo clienti affezionatissimi. Raccomando anche le torte e le granite.»</p><p class="recensione__chi"><b>paola</b> <span data-i18n="d.g4a">Google, 4 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Super consigliato, ho preso i gusti crema di zenzero e cuor d’arancia (cioccolato fondente, arancia e marnier), entrambi buonissimi, si sente che gli ingredienti sono di ottima qualità. Ci sono gusti diversi dal solito, come la crema di zenzero ad esempio. Tornerò presto a provarne altri.»</p><p class="recensione__chi"><b>Nadia Tirone</b> <span data-i18n="d.g2m">Google, 2 mesi fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«È difficile trovare un posto in cui i gusti sono così vicini alla descrizione e al contempo c’è gentilezza da parte di chi ti serve. Ho assaggiato il gusto passion fruit e menta su suggerimento del personale che mi ha invitato a provarlo prima di sceglierlo e assieme al melone sono stata un’accoppiata vincente. Da provare anche crema antica!»</p><p class="recensione__chi"><b>dafne fossa</b> <span data-i18n="d.g1a">Google, un anno fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Gelateria davvero ottima! La varietà di gusti di frutta è legata alla disponibilità stagionale (come è giusto che sia), le creme invece sono di molto tipi diversi e si possono trovare anche degli abbinamenti interessanti. <span class="taglio">[…]</span> Il personale è davvero molto gentile e disponibile anche a far assaggiare i gusti in caso di dubbi. Assolutamente consigliata!»</p><p class="recensione__chi"><b>Carlo Sala</b> <span data-i18n="d.g7a">Google, 7 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Oltre a essere il miglior gelato di Milano, che frequento con affetto fin dal giorno dell’apertura, ciò che fa davvero la differenza è la gentilezza e la passione dei ragazzi, sempre accoglienti e con il sorriso. (Non posso più fare a meno del mio gusto preferito e unico a Milano: il pistacchio!!)»</p><p class="recensione__chi"><b>Daniela Calamai</b> <span data-i18n="d.g9m">Google, 9 mesi fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Il gelato è fatto veramente con Amore. Noi più volte all'anno veniamo a farci una bella camminata a Milano e d'obbligo ci fermiamo in questa gelateria per un ottimo gelato. Fantastico è il gusto pistacchio salato. Però nulla da togliere agli altri gusti sempre al Top.»</p><p class="recensione__chi"><b>Piergiorgio de priori</b> <span data-i18n="d.g1m">Google, un mese fa</span></p></li>
     </ul>
     <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte; i tagli sono segnati con […]. Anche la frase in alto viene da una recensione su Google.</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Gelato+Fatto+Con+Amore%2C+Corso+Magenta+30%2C+20123+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
   </section>
@@ -404,7 +443,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
       </div>
       <div class="dove">
         <div class="cartina reveal">
-          <iframe title="Mappa: Gelato Fatto con Amore, Corso Magenta 30, Milano" data-i18n-title="o.mappa" src="https://maps.google.com/maps?q=Gelato%20Fatto%20Con%20Amore%2C%20Corso%20Magenta%2030%2C%2020123%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="mappa-clic" data-mappa-clic style="--mappa-h: 400px"><template><iframe title="Mappa: Gelato Fatto con Amore, Corso Magenta 30, Milano" data-i18n-title="o.mappa" src="https://maps.google.com/maps?q=Gelato%20Fatto%20Con%20Amore%2C%20Corso%20Magenta%2030%2C%2020123%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Gelato+Fatto+Con+Amore%2C+Corso+Magenta+30%2C+20123+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
         </div>
         <dl class="indirizzo">
           <div><dt data-i18n="o.dove">Dove</dt><dd data-i18n="o.dovev">Corso Magenta 30, 20123 Milano: a circa 70 metri da Palazzo Litta</dd></div>
@@ -439,7 +478,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <p class="piede__sotto">Gelateria artigianale</p>
     <p class="piede__dove">Corso Magenta 30, 20123 Milano · <a href="tel:+390284082297" class="intero">02 8408 2297</a></p>
     <p class="piede__orario" data-i18n="f2.orario">Martedì–domenica 12–22 · lunedì chiuso</p>
-    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · le foto vengono dalla loro pagina Instagram e dalle recensioni su Google; orari e recensioni dalla loro scheda Google (settembre 2026). La mantecatrice l'abbiamo disegnata noi, dalle loro foto.</p>
+    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · le foto vengono dalla loro pagina Instagram e dalle recensioni su Google; orari e recensioni dalla loro scheda Google (settembre 2026). La mantecatrice l'abbiamo disegnata noi, dalle loro foto.</p>
     <p><a class="piede__su" href="#inizio" data-i18n="f2.su">Torna su ↑</a></p>
   </div>
 </footer>
@@ -454,5 +493,6 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
